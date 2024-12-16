@@ -6,10 +6,10 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="mt-4">
+<body class="mt-2">
     <main >
-        <nav class="p-8 sticky top-0 backdrop-blur-45px bg-green-100">
-            <nav class="flex space-y-2 justify-between text-center ">
+        <nav class="sticky top-0 backdrop-blur-3xl bg-gray-100 pb-4">
+            <nav class="p-2 flex space-y-2 justify-between items-center bg-gray-200 w-full rounded-xl">
                 <div>
                     <a href="blog.html" class="text-2xl pt-2 pb-2 pr-4 pl-4 border bg-green-400  rounded-xl font-bold">Blog</a>
                 </div>
@@ -23,13 +23,13 @@
                 </div>
                 <div class="flex items-center space-x-2">
                     <img src="./assets/coin.png" alt="coin">
-                    <p>5000 BDT</p>
+                    <p id="minimise">50000 BDT</p>
                 </div>
             </nav>
             <div class="mt-8 flex justify-center space-x-4">
                 <a href="" class="bg-gray-300 text-black px-6 py-2 rounded-lg hover:bg-gray-400 focus:bg-green-400">Donation  </a>
               
-                <a href="" class="bg-gray-300 text-black px-6 py-2 rounded-lg hover:bg-gray-400 focus:bg-green-400">History  </a>
+                <a href="" class="bg-gray-300 text-black px-6 py-2 rounded-lg hover:bg-gray-400 focus:bg-green-400">History</a>
             </div>
         </nav>
         
@@ -39,15 +39,15 @@
                     <img class="" src="./assets/noakhali.png" alt="">
                 </div>
                 <div>
-                    <div class="flex items-center bg-gray-300 p-2 w-24 rounded-md space-x-1 ">
+                    <div id="" class="flex items-center bg-gray-300 p-2 w-24 rounded-md space-x-1 ">
                         <img src="./assets/coin.png" alt="">
-                        <p>0 BDT</p>
+                        <p id="add-donation-money-from-donate">0 BDT</p>
                     </div>
                     <div class="space-y-6">
                     <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
                         <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
-                        <input class="w-full" type="text" placeholder="Write Donation Amount"><br>
-                        <button class="items-center w-full bg-green-400 rounded-xl p-2 font-bold">Donate Now</button>
+                        <input id="add-donation-amount" class="w-full p-2" type="text" placeholder="Write Donation Amount"><br>
+                        <button id="donation-amount" class="items-center w-full bg-green-400 rounded-xl p-2 font-bold">Donate Now</button>
                     </div>
                 </div>
             </div>
@@ -61,13 +61,13 @@
                 <div>
                     <div class="flex items-center bg-gray-300 p-2 w-24 rounded-md space-x-1 ">
                         <img src="./assets/coin.png" alt="">
-                        <p>0 BDT</p>
+                        <p id="add-donation-money-from-donate">0 BDT</p>
                     </div>
                     <div class="space-y-10">
                     <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
                         <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
-                        <input class="w-full" type="text" placeholder="Write Donation Amount"><br>
-                        <button class="items-center w-full bg-green-400 rounded-xl p-2 font-bold">Donate Now</button>
+                        <input id="add-donation-amount" class="w-full" type="text" placeholder="Write Donation Amount"><br>
+                        <button id="donation-amount" class="items-center w-full bg-green-400 rounded-xl p-2 font-bold">Donate Now</button>
                     </div>
                 </div>
             </div>
@@ -81,17 +81,21 @@
                 <div>
                     <div class="flex items-center bg-gray-300 p-2 w-24 rounded-md space-x-1 ">
                         <img src="./assets/coin.png" alt="">
-                        <p>0 BDT</p>
+                        <p id="add-donation-money-from-donate">0 BDT</p>
                     </div>
                     <div class="space-y-12">
                     <h1 class="text-2xl font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
                         <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
-                        <input class="w-full" type="text" placeholder="Write Donation Amount"><br>
-                        <button class="items-center w-full bg-green-400 rounded-xl p-2 font-bold">Donate Now</button>
+                        <input id="add-donation-amount" class="w-full" type="text" placeholder="Write Donation Amount"><br>
+                        <button id="donation-amount" class="items-center w-full bg-green-400 rounded-xl p-2 font-bold">Donate Now</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+<!-- <script src="js/donate.js"></script> -->
+ <script src="js/utilities.js"></script>
+ <script src="js/addmoney.js"></script>
+ <script src="js/minimise.js"></script>
 </body>
 </html>
